@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Saif | Developer Portfolio</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #0b1020;
+    color: #fff;
+    line-height: 1.8;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px 9%;
+    background: #11182b;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: bold;
+    color: #8b7bff;
+}
+
+nav a {
+    color: #ddd;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    color: #8b7bff;
+}
+
+.hero {
+    min-height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero-content {
+    max-width: 750px;
+}
+
+.avatar {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #7565ff, #16c4d9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 55px;
+    font-weight: bold;
+    margin: 0 auto 25px;
+}
+
+.hero h1 {
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+.hero h1 span {
+    color: #8b7bff;
+}
+
+.hero p {
+    color: #aaa;
+    font-size: 18px;
+}
+
+.btn {
+    display: inline-block;
+    background: #7565ff;
+    color: white;
+    padding: 12px 28px;
+    border-radius: 8px;
+    text-decoration: none;
+    margin-top: 25px;
+    transition: .3s;
+}
+
+.btn:hover {
+    background: #5745df;
+}
+
+section {
+    padding: 75px 9%;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 35px;
+    color: #9b8fff;
+}
+
+.about {
+    background: #11182b;
+    text-align: center;
+}
+
+.about p {
+    max-width: 750px;
+    margin: auto;
+    color: #bbb;
+}
+
+.skills-grid,
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: #151e33;
+    padding: 25px;
+    border-radius: 12px;
+    text-align: center;
+    border: 1px solid #28334d;
+    transition: .3s;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+    border-color: #7565ff;
+}
+
+.card h3 {
+    color: #a99eff;
+    margin-bottom: 10px;
+}
+
+.card p {
+    color: #aaa;
+}
+
+.contact {
+    background: #11182b;
+    text-align: center;
+}
+
+.contact p {
+    color: #bbb;
+}
+
+.social a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    background: #7565ff;
+    padding: 10px 22px;
+    border-radius: 7px;
+    margin: 12px 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #888;
+    background: #080c17;
+}
+
+@media(max-width: 600px) {
+    nav {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    nav a {
+        font-size: 13px;
+        margin: 0 5px;
+    }
+
+    .hero h1 {
+        font-size: 32px;
+    }
+
+    section {
+        padding: 55px 6%;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+    <div class="logo">SAIF.</div>
+    <div>
+        <a href="#home">الرئيسية</a>
+        <a href="#about">عني</a>
+        <a href="#skills">مهاراتي</a>
+        <a href="#projects">مشاريعي</a>
+        <a href="#contact">تواصل</a>
+    </div>
+</nav>
+
+<header class="hero" id="home">
+    <div class="hero-content">
+        <div class="avatar">S</div>
+        <h1>مرحباً، أنا <span>سيف الدين</span></h1>
+        <p>مبرمج مهتم بالتقنية وتطوير البرمجيات</p>
+        <a href="#projects" class="btn">اكتشف مشاريعي</a>
+    </div>
+</header>
+
+<section class="about" id="about">
+    <h2 class="section-title">من أنا؟</h2>
+    <p>
+        أنا سيف الدين سلمان، مهتم بعالم البرمجة
+        وتطوير البرمجيات. أتعلم باستمرار وأعمل على
+        تطوير مهاراتي في لغات البرمجة المختلفة،
+        وأسعى إلى بناء مشاريع مفيدة ومميزة.
+    </p>
+</section>
+
+<section id="skills">
+    <h2 class="section-title">مهاراتي</h2>
+    <div class="skills-grid">
+        <div class="card">
+            <h3>Java</h3>
+            <p>البرمجة كائنية التوجه OOP</p>
+        </div>
+        <div class="card">
+            <h3>C++</h3>
+            <p>أساسيات البرمجة وهياكل البيانات</p>
+        </div>
+        <div class="card">
+            <h3>HTML</h3>
+            <p>بناء صفحات الويب</p>
+        </div>
+        <div class="card">
+            <h3>CSS</h3>
+            <p>تصميم وتنسيق صفحات الويب</p>
+        </div>
+        <div class="card">
+            <h3>Git & GitHub</h3>
+            <p>إدارة المشاريع البرمجية</p>
+        </div>
+    </div>
+</section>
+
+<section id="projects">
+    <h2 class="section-title">مشاريعي</h2>
+    <div class="projects-grid">
+        <div class="card">
+            <h3>Hospital System</h3>
+            <p>مشروع لإدارة المرضى والأطباء والأقسام.</p>
+        </div>
+        <div class="card">
+            <h3>Stadium Booking</h3>
+            <p>نظام لتنظيم حجوزات الملاعب.</p>
+        </div>
+        <div class="card">
+            <h3>Personal Portfolio</h3>
+            <p>موقعي الشخصي لعرض مهاراتي وأعمالي.</p>
+        </div>
+    </div>
+</section>
+
+<section class="contact" id="contact">
+    <h2 class="section-title">تواصل معي</h2>
+    <p>يسعدني التواصل وتبادل الخبرات معكم.</p>
+
+    <div class="social">
+        <a href="https://github.com/SaifAldainSalman" target="_blank">GitHub</a>
+
+        <a href="https://www.instagram.com/saifaldain2/" target="_blank">Instagram</a>
+    </div>
+</section>
+
+<footer>
+    © 2026 Saif Aldain Salman | All Rights Reserved
+</footer>
+
+</body>
+</html>
