@@ -24,7 +24,7 @@
 <table align="center" width="600">
   <tr>
     <td align="center">
-      <h2> 🤍Salim_AL kathiry🤞FRIENDS🏌️ </h2>
+      <h2> 🤍Salim_AL kathiry🤞FR</h2>
       <a href="https://github.com/salim7717">
         <img src="https://avatars.githubusercontent.com/u/355841152?s=400&u=3414dfc021cf08cff86fb22c0fb40ce88f169e12&v=4" width="100">
         <h2>سالم الكثيري</h2>
