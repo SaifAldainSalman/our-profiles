@@ -43,3 +43,26 @@
     </td>
   </tr>
 </table>
+
+<table align="center" width="600">
+  <tr>
+    <td align="center">
+      <h2> 🤍RAMI BIN AFFI🤞</h2>
+      <a href="https://github.com/ramibinaffi-lgtm">
+        <img src="https://avatars.githubusercontent.com/u/296539035?s=400&u=d59ca80cba9c9c59512d7d057049d8c018ab6f90&v=4" width="100">
+        <h2>ABO_AFFI</h2>
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://www.instagram.com/_ffi_r?lqvp=MWpiYnQ3bHVvMjBtdw==">
+        Instagram
+      </a>
+      &nbsp;&nbsp;&nbsp;
+      <a href="https://github.com/ramibinaffi-lgtm">
+        GitHub
+      </a>
+    </td>
+  </tr>
+</table>
